@@ -1,0 +1,20 @@
+table{
+	border-collapse: collapse;
+	width: 45%;
+	
+}
+
+table tr {background-color: yellow; }
+
+th, td{
+	text-align:left;
+	padding: 15px;
+	
+}
+
+table tr:nth-child(odd) {background-color: greenyellow;}
+table tr:nth-child(even) {background-color: darkgreen;}
+
+tr:ntd-child(even){
+	background-color: #f2f2f2;
+}
